@@ -1,0 +1,5 @@
+AllCops:
+  Exclude:
+    - 'spec/**/*'  # need to resolve rubocop errors
+  TargetRubyVersion:
+    2.4.3
