@@ -27,11 +27,11 @@ To get give you an initial verification, the following must be true:
 
 The conversion of a 10 digit phone number should be performed within 1000ms.
 
-#####Usage
+##### Usage
   `bundle exec ruby dictionary.rb 6686787825`
 
-#####Rspec
+##### Rspec
   `bundle exec rspec`
 
-#####Rubocop
+##### Rubocop
  `rubocop`
