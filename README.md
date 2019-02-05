@@ -1,4 +1,4 @@
-# word-dictionary
+# word-search-dictionary
 
 In this we could map the sample of 10 digits number into words.
 
@@ -21,9 +21,9 @@ Words have to be at least 3 characters.
 
 To get give you an initial verification, the following must be true:
 
-`6686787825` should return the following list `[["motor", "usual"], ["noun", "struck"], ["nouns", "truck"], ["nouns", "usual"], ["onto", "struck"], "motortruck"]`.
+`6686787825` should return the following list `[['noun', 'struck'], ['onto', 'struck'], ['motor', 'truck'], ['motor', 'usual'], ['nouns', 'truck'], ['nouns', 'usual'], 'motortruck']`.
 
-`2282668687` should return the following list `[["act", "amounts"], ["act", "contour"], ["acta", "mounts"], ["bat", "amounts"], ["bat", "contour"], ["cat", "contour"], "catamounts"]`.
+`2282668687` should return the following list `[['act', 'amounts'], ['act', 'contour'], ['bat', 'amounts'], ['bat', 'contour'], ['cat', 'amounts'], ['cat', 'contour'], ['acta', 'mounts'], 'catamounts']`.
 
 The conversion of a 10 digit phone number should be performed within 1000ms.
 

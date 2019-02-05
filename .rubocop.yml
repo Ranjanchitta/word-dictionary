@@ -3,3 +3,9 @@ AllCops:
     - 'spec/**/*'  # need to resolve rubocop errors
   TargetRubyVersion:
     2.4.3
+Metrics/LineLength:
+  Max: 130
+Metrics/MethodLength:
+  Max: 25
+Metrics/AbcSize:
+  Max: 40
